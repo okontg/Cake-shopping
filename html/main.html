@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Cake Shopping</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="site__name">Desserts</h1>
+    <h2 class="item__order-in-cart">Your Cart <span>(0)</span></h2>
+  </header>
+  <main class="wrapper">
+    <div class="display_grid">
+      <!------------ product section -->
+      <section class="product__container">    
+      </section>
+
+      <div class="cart">
+        <div class="empty__cart"></div> 
+        <section class="cart__container"></section>
+
+        <div class="sumProduct">
+          <p>coimg home</p>
+        </div>
+
+        <!----------------- confirm order section -->
+        <div class="wrap__confrim-items">
+          <h1 class="confrim-order-make">Confrim Order</h1>
+          <p class="greeting">We hope you enjoy your food!</p>
+          <div class="confirm__order">
+            <div class="co-img">
+              <img src="../image/sweet-cookie-confectionery.jpg" alt="item irder" width="50" class="item-order">
+            </div>
+            <div class="confirm-order-details">
+              <div class="c-order">
+                <h3 class="name-1">Root Cake</h3>
+                <span class="total_item-order">4×</span>
+                <span class="single__item-price">@50</span>
+              </div>
+              <div class="confirm-total-price-item">$90</div>
+            </div>
+          </div>
+
+          <div class="confirm__order">
+            <div class="co-img">
+              <img src="../image/chocolate-sprinkles-strawberries.jpg" alt="item irder" width="50" class="item-order">
+            </div>
+            <div class="confirm-order-details">
+              <div class="c-order">
+                <h3 class="name-1">R Cake</h3>
+                <span class="total_item-order">5×</span>
+                <span class="single__item-price">@20</span>
+              </div>
+              <div class="confirm-total-price-item">$70</div>
+            </div>
+          </div>
+
+          <div class="confirm__order">
+            <div class="co-img">
+              <img src="../image/chocolate-cream-cherries.jpg" alt="item irder" width="50" class="item-order">
+            </div>
+            <div class="confirm-order-details">
+              <div class="c-order">
+                <h3 class="name-1">Fruit Cake</h3>
+                <span class="total_item-order">7×</span>
+                <span class="single__item-price">@30</span>
+              </div>
+              <div class="confirm-total-price-item">$120</div>
+            </div>
+          </div>
+
+          <div class="co-total-order">
+            <p class="co-or">Total order</p>
+            <h2 class="total__bill">$120</h2>
+          </div>
+
+          <button class="make__shopping-again">Start New Order</button>
+        </div>
+      </div>  
+    </div>
+  </main>
+
+  <script src="../js/main.js" type="module"></script>
+</body>
+</html>
